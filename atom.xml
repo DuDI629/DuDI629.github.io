@@ -6,7 +6,7 @@
   <link href="https://dudi629.github.io/atom.xml" rel="self"/>
   
   <link href="https://dudi629.github.io/"/>
-  <updated>2022-07-18T07:26:26.066Z</updated>
+  <updated>2022-07-20T07:35:29.316Z</updated>
   <id>https://dudi629.github.io/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue终极版 合集</title>
+    <link href="https://dudi629.github.io/2022/07/20/Vue/"/>
+    <id>https://dudi629.github.io/2022/07/20/Vue/</id>
+    <published>2022-07-20T07:35:13.050Z</published>
+    <updated>2022-07-20T07:35:29.316Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 工具类 合集</title>
+    <link href="https://dudi629.github.io/2022/07/20/javascript_util/"/>
+    <id>https://dudi629.github.io/2022/07/20/javascript_util/</id>
+    <published>2022-07-20T07:34:35.135Z</published>
+    <updated>2022-07-20T07:34:52.360Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 排序算法 合集</title>
+    <link href="https://dudi629.github.io/2022/07/19/javascript/"/>
+    <id>https://dudi629.github.io/2022/07/19/javascript/</id>
+    <published>2022-07-19T07:02:36.222Z</published>
+    <updated>2022-07-20T07:31:14.714Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="基础算法"><a href="#基础算法" class="headerlink" title="基础算法"></a><strong>基础算法</strong></h2><h5 id="1-冒泡排序"><a href="#1-冒泡排序" class="headerlink" title="1.冒泡排序"></a>1.冒泡排序</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">let list = [1, 20, 2, 3, 65, 9, 7, 13, 10];</span><br><span class="line">for(let i=0; i&lt;list.length; i++)&#123;</span><br><span class="line">    for(let k=0; k&lt;list.length; k++)&#123;</span><br><span class="line">      if(list[i] &lt; list[k])&#123;</span><br><span class="line">          let temp = list[i];</span><br><span class="line">          list[i] = list[k];</span><br><span class="line">          list[k] = temp;</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="/../javascript/maopao.png" alt="图片" loading="lazy"></p><h5 id="2-插入排序"><a href="#2-插入排序" class="headerlink" title="2.插入排序"></a>2.插入排序</h5><h6 id="思想：暂时没有"><a href="#思想：暂时没有" class="headerlink" title="思想：暂时没有"></a>思想：暂时没有</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">let list = [1, 20, 0, 3, 65, 9, 7, 13, 10];</span><br><span class="line">insertSort = (list) =&gt;&#123;</span><br><span class="line">  for(let i=0; i&lt;list.length; i++)&#123;</span><br><span class="line">    let temp = list[i];</span><br><span class="line">    let k = i-1;</span><br><span class="line">    while(list[k] &gt; temp)&#123;</span><br><span class="line">      list[k+1] = list[k];</span><br><span class="line">      k--</span><br><span class="line">    &#125;</span><br><span class="line">    list[k + 1] = temp</span><br><span class="line">  &#125;</span><br><span class="line">  return list;</span><br><span class="line">&#125;</span><br><span class="line">insertSort(list)</span><br><span class="line"></span><br><span class="line">####第二种插入排序</span><br><span class="line">function insertSort()&#123;</span><br><span class="line">  let list = [1, 20, 2, 3, 65, 9, 7, 13, 10];</span><br><span class="line">  for(let i=0; i&lt;list.length; i++)&#123;</span><br><span class="line">    let temp = list[i];</span><br><span class="line">    var k = i-1;</span><br><span class="line">    let d = i-1</span><br><span class="line">    for(k; k &gt;= 0; k--)&#123;</span><br><span class="line">      if(list[d] &gt; temp)&#123;</span><br><span class="line">        list[d+1] = list[d];</span><br><span class="line">        d--;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    list[d+1] = temp</span><br><span class="line">  &#125;</span><br><span class="line">  return list;</span><br><span class="line">&#125;</span><br><span class="line">insertSort();</span><br></pre></td></tr></table></figure><p><img src="/../javascript/insertSort.png" alt="图片" loading="lazy"></p><h5 id="3-快速排序"><a href="#3-快速排序" class="headerlink" title="3.快速排序"></a>3.快速排序</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">暂时没写出来</span><br></pre></td></tr></table></figure><h5 id="4-希尔排序"><a href="#4-希尔排序" class="headerlink" title="4.希尔排序"></a>4.希尔排序</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">暂时没写出来</span><br></pre></td></tr></table></figure><h5 id="5-选择排序"><a href="#5-选择排序" class="headerlink" title="5.选择排序"></a>5.选择排序</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">随意挑一个跟剩下的比较，取出最小的放到取下的那个位置，以此类推，</span><br><span class="line"></span><br><span class="line">function selectSort()&#123;</span><br><span class="line">  let list = [1, 20, 2, 3, 65, 9, 7, 13, 10];</span><br><span class="line"></span><br><span class="line">  for(let i=0; i &lt; list.length; i++)&#123;</span><br><span class="line">    let minval = list[i];</span><br><span class="line">    let minindex = i;</span><br><span class="line">    for(let j=i+1; j &lt; list.length; j++)&#123;</span><br><span class="line">      if(list[j] &lt; minval)&#123;</span><br><span class="line">        minindex = j;</span><br><span class="line">        minval = list[j];</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    let temp = list[i];</span><br><span class="line">    list[i] = minval;</span><br><span class="line">    list[minindex] = temp</span><br><span class="line">  &#125;</span><br><span class="line">  return list;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">selectSort();</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
